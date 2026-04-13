@@ -4,16 +4,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/mouse.h>
 
-/ {
-    behaviors {
-        inc_dec_msc: behavior_sensor_rotate_mouse_scroll {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&msc>, <&msc>;
-        };
-    };
-};
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
