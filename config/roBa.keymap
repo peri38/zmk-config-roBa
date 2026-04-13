@@ -87,7 +87,7 @@
 &kp LEFT_ALT      &kp LEFT_WIN  &kp LCTRL  &lt 1 TAB  &lt 2 SPACE  &lt 4 QUESTION            &kp BACKSPACE      &lt 3 AT_SIGN                             &lt 6 DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DOWN>;
         };
 
         FUNCTION {
